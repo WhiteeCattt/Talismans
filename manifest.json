@@ -1,0 +1,36 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Талисманы - v1.0.0",
+		"description": "С помощью данного аддона вы получаете возможность создавать свои собственные талисманы!\n\nПомощь по командам: §6/scriptevent talismans:help§f\n§fНастройка находится в файле §6talismans.js§f\n\nСоздатель: §6WhiteeCattt§f\nТелеграм-канал: §6t.me/addons_pe",
+		"uuid": "5c891b8e-c32b-4e2a-9d8d-a46ab821909c",
+		"version": [ 1, 0, 0 ],
+		"min_engine_version": [ 1, 20, 50 ]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "2b067388-1e2e-4d20-9a8b-ed650102ea45",
+			"version": [ 0, 0, 1 ]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"entry": "scripts/index.js",
+			"uuid": "2b090af4-ec81-4415-b635-463a1137f6a7",
+			"version": "1.4.0-beta"
+		}
+	],
+	"metadata": {
+		"authors": ["WhiteeCattt"],
+		"license": "MIT",
+		"url": "https://t.me/addons_pe"
+	},
+	"dependencies": [
+		{
+			"description": "@minecraft/server module dependency",
+			"module_name": "@minecraft/server",
+			"version": "1.7.0"
+		}
+	]
+}
